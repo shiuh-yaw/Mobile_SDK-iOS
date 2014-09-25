@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56165E311925F4A9003643D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56165E301925F4A9003643D7 /* Foundation.framework */; };
+		56165E331925F4A9003643D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56165E321925F4A9003643D7 /* CoreGraphics.framework */; };
+		56165E351925F4A9003643D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56165E341925F4A9003643D7 /* UIKit.framework */; };
+		56165E3B1925F4A9003643D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56165E391925F4A9003643D7 /* InfoPlist.strings */; };
+		56165E3D1925F4A9003643D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56165E3C1925F4A9003643D7 /* main.m */; };
+		56165E411925F4A9003643D7 /* MOLPayExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56165E401925F4A9003643D7 /* MOLPayExampleAppDelegate.m */; };
+		56165E441925F4A9003643D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56165E421925F4A9003643D7 /* Main.storyboard */; };
+		56165E471925F4A9003643D7 /* MOLPayExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56165E461925F4A9003643D7 /* MOLPayExampleViewController.m */; };
+		56165E491925F4A9003643D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56165E481925F4A9003643D7 /* Images.xcassets */; };
+		56165E501925F4A9003643D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56165E4F1925F4A9003643D7 /* XCTest.framework */; };
+		56165E511925F4A9003643D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56165E301925F4A9003643D7 /* Foundation.framework */; };
+		56165E521925F4A9003643D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56165E341925F4A9003643D7 /* UIKit.framework */; };
+		56165E5A1925F4A9003643D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56165E581925F4A9003643D7 /* InfoPlist.strings */; };
+		56165E5C1925F4A9003643D7 /* MOLPaySDK_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56165E5B1925F4A9003643D7 /* MOLPaySDK_ExampleTests.m */; };
+		5DF4EB1F19D3B16600B5E59A /* MOLPay.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5DF4EB1E19D3B16600B5E59A /* MOLPay.bundle */; };
+		5DF4EB2B19D3F38800B5E59A /* MOLPayLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF4EB2A19D3F38800B5E59A /* MOLPayLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56165E531925F4A9003643D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56165E251925F4A9003643D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56165E2C1925F4A9003643D7;
+			remoteInfo = "MOLPaySDK Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56165E2D1925F4A9003643D7 /* MOLPaySDK Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MOLPaySDK Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56165E301925F4A9003643D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56165E321925F4A9003643D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56165E341925F4A9003643D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56165E381925F4A9003643D7 /* MOLPaySDK Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MOLPaySDK Example-Info.plist"; sourceTree = "<group>"; };
+		56165E3A1925F4A9003643D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56165E3C1925F4A9003643D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56165E3E1925F4A9003643D7 /* MOLPaySDK Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MOLPaySDK Example-Prefix.pch"; sourceTree = "<group>"; };
+		56165E3F1925F4A9003643D7 /* MOLPayExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOLPayExampleAppDelegate.h; sourceTree = "<group>"; };
+		56165E401925F4A9003643D7 /* MOLPayExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOLPayExampleAppDelegate.m; sourceTree = "<group>"; };
+		56165E431925F4A9003643D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56165E451925F4A9003643D7 /* MOLPayExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOLPayExampleViewController.h; sourceTree = "<group>"; };
+		56165E461925F4A9003643D7 /* MOLPayExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOLPayExampleViewController.m; sourceTree = "<group>"; };
+		56165E481925F4A9003643D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56165E4E1925F4A9003643D7 /* MOLPaySDK ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MOLPaySDK ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56165E4F1925F4A9003643D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		56165E571925F4A9003643D7 /* MOLPaySDK ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MOLPaySDK ExampleTests-Info.plist"; sourceTree = "<group>"; };
+		56165E591925F4A9003643D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56165E5B1925F4A9003643D7 /* MOLPaySDK_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOLPaySDK_ExampleTests.m; sourceTree = "<group>"; };
+		5DF4EB1E19D3B16600B5E59A /* MOLPay.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MOLPay.bundle; sourceTree = "<group>"; };
+		5DF4EB2A19D3F38800B5E59A /* MOLPayLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOLPayLibrary.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56165E2A1925F4A9003643D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56165E331925F4A9003643D7 /* CoreGraphics.framework in Frameworks */,
+				56165E351925F4A9003643D7 /* UIKit.framework in Frameworks */,
+				5DF4EB2B19D3F38800B5E59A /* MOLPayLibrary.framework in Frameworks */,
+				56165E311925F4A9003643D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56165E4B1925F4A9003643D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56165E501925F4A9003643D7 /* XCTest.framework in Frameworks */,
+				56165E521925F4A9003643D7 /* UIKit.framework in Frameworks */,
+				56165E511925F4A9003643D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56165E241925F4A9003643D7 = {
+			isa = PBXGroup;
+			children = (
+				56165E361925F4A9003643D7 /* MOLPaySDK Example */,
+				56165E551925F4A9003643D7 /* MOLPaySDK ExampleTests */,
+				56165E2F1925F4A9003643D7 /* Frameworks */,
+				56165E2E1925F4A9003643D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56165E2E1925F4A9003643D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56165E2D1925F4A9003643D7 /* MOLPaySDK Example.app */,
+				56165E4E1925F4A9003643D7 /* MOLPaySDK ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56165E2F1925F4A9003643D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DF4EB0519D2AE5100B5E59A /* MOLPay */,
+				5DF4EAF619D2AAE700B5E59A /* MOLPay SDK */,
+				56165E301925F4A9003643D7 /* Foundation.framework */,
+				56165E321925F4A9003643D7 /* CoreGraphics.framework */,
+				56165E341925F4A9003643D7 /* UIKit.framework */,
+				56165E4F1925F4A9003643D7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56165E361925F4A9003643D7 /* MOLPaySDK Example */ = {
+			isa = PBXGroup;
+			children = (
+				56165E451925F4A9003643D7 /* MOLPayExampleViewController.h */,
+				56165E461925F4A9003643D7 /* MOLPayExampleViewController.m */,
+				56165E3F1925F4A9003643D7 /* MOLPayExampleAppDelegate.h */,
+				56165E401925F4A9003643D7 /* MOLPayExampleAppDelegate.m */,
+				56165E421925F4A9003643D7 /* Main.storyboard */,
+				56165E481925F4A9003643D7 /* Images.xcassets */,
+				56165E371925F4A9003643D7 /* Supporting Files */,
+			);
+			path = "MOLPaySDK Example";
+			sourceTree = "<group>";
+		};
+		56165E371925F4A9003643D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56165E381925F4A9003643D7 /* MOLPaySDK Example-Info.plist */,
+				56165E391925F4A9003643D7 /* InfoPlist.strings */,
+				56165E3C1925F4A9003643D7 /* main.m */,
+				56165E3E1925F4A9003643D7 /* MOLPaySDK Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56165E551925F4A9003643D7 /* MOLPaySDK ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				56165E5B1925F4A9003643D7 /* MOLPaySDK_ExampleTests.m */,
+				56165E561925F4A9003643D7 /* Supporting Files */,
+			);
+			path = "MOLPaySDK ExampleTests";
+			sourceTree = "<group>";
+		};
+		56165E561925F4A9003643D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56165E571925F4A9003643D7 /* MOLPaySDK ExampleTests-Info.plist */,
+				56165E581925F4A9003643D7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DF4EAF619D2AAE700B5E59A /* MOLPay SDK */ = {
+			isa = PBXGroup;
+			children = (
+				5DF4EB2A19D3F38800B5E59A /* MOLPayLibrary.framework */,
+				5DF4EB1E19D3B16600B5E59A /* MOLPay.bundle */,
+			);
+			path = "MOLPay SDK";
+			sourceTree = "<group>";
+		};
+		5DF4EB0519D2AE5100B5E59A /* MOLPay */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MOLPay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56165E2C1925F4A9003643D7 /* MOLPaySDK Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56165E5F1925F4A9003643D7 /* Build configuration list for PBXNativeTarget "MOLPaySDK Example" */;
+			buildPhases = (
+				56165E291925F4A9003643D7 /* Sources */,
+				56165E2A1925F4A9003643D7 /* Frameworks */,
+				56165E2B1925F4A9003643D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MOLPaySDK Example";
+			productName = "MOLPaySDK Example";
+			productReference = 56165E2D1925F4A9003643D7 /* MOLPaySDK Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56165E4D1925F4A9003643D7 /* MOLPaySDK ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56165E621925F4A9003643D7 /* Build configuration list for PBXNativeTarget "MOLPaySDK ExampleTests" */;
+			buildPhases = (
+				56165E4A1925F4A9003643D7 /* Sources */,
+				56165E4B1925F4A9003643D7 /* Frameworks */,
+				56165E4C1925F4A9003643D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56165E541925F4A9003643D7 /* PBXTargetDependency */,
+			);
+			name = "MOLPaySDK ExampleTests";
+			productName = "MOLPaySDK ExampleTests";
+			productReference = 56165E4E1925F4A9003643D7 /* MOLPaySDK ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56165E251925F4A9003643D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MOLPayExample;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MOLPay;
+				TargetAttributes = {
+					56165E4D1925F4A9003643D7 = {
+						TestTargetID = 56165E2C1925F4A9003643D7;
+					};
+				};
+			};
+			buildConfigurationList = 56165E281925F4A9003643D7 /* Build configuration list for PBXProject "MOLPaySDK Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56165E241925F4A9003643D7;
+			productRefGroup = 56165E2E1925F4A9003643D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56165E2C1925F4A9003643D7 /* MOLPaySDK Example */,
+				56165E4D1925F4A9003643D7 /* MOLPaySDK ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56165E2B1925F4A9003643D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56165E491925F4A9003643D7 /* Images.xcassets in Resources */,
+				56165E3B1925F4A9003643D7 /* InfoPlist.strings in Resources */,
+				56165E441925F4A9003643D7 /* Main.storyboard in Resources */,
+				5DF4EB1F19D3B16600B5E59A /* MOLPay.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56165E4C1925F4A9003643D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56165E5A1925F4A9003643D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56165E291925F4A9003643D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56165E3D1925F4A9003643D7 /* main.m in Sources */,
+				56165E411925F4A9003643D7 /* MOLPayExampleAppDelegate.m in Sources */,
+				56165E471925F4A9003643D7 /* MOLPayExampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56165E4A1925F4A9003643D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56165E5C1925F4A9003643D7 /* MOLPaySDK_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56165E541925F4A9003643D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56165E2C1925F4A9003643D7 /* MOLPaySDK Example */;
+			targetProxy = 56165E531925F4A9003643D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56165E391925F4A9003643D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56165E3A1925F4A9003643D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56165E421925F4A9003643D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56165E431925F4A9003643D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56165E581925F4A9003643D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56165E591925F4A9003643D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56165E5D1925F4A9003643D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56165E5E1925F4A9003643D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56165E601925F4A9003643D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MOLPay",
+					SDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOLPaySDK Example/MOLPaySDK Example-Prefix.pch";
+				INFOPLIST_FILE = "MOLPaySDK Example/MOLPaySDK Example-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56165E611925F4A9003643D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MOLPay",
+					SDK,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOLPaySDK Example/MOLPaySDK Example-Prefix.pch";
+				INFOPLIST_FILE = "MOLPaySDK Example/MOLPaySDK Example-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		56165E631925F4A9003643D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MOLPaySDK Example.app/MOLPaySDK Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOLPaySDK Example/MOLPaySDK Example-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MOLPaySDK ExampleTests/MOLPaySDK ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		56165E641925F4A9003643D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MOLPaySDK Example.app/MOLPaySDK Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOLPaySDK Example/MOLPaySDK Example-Prefix.pch";
+				INFOPLIST_FILE = "MOLPaySDK ExampleTests/MOLPaySDK ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56165E281925F4A9003643D7 /* Build configuration list for PBXProject "MOLPaySDK Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56165E5D1925F4A9003643D7 /* Debug */,
+				56165E5E1925F4A9003643D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56165E5F1925F4A9003643D7 /* Build configuration list for PBXNativeTarget "MOLPaySDK Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56165E601925F4A9003643D7 /* Debug */,
+				56165E611925F4A9003643D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56165E621925F4A9003643D7 /* Build configuration list for PBXNativeTarget "MOLPaySDK ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56165E631925F4A9003643D7 /* Debug */,
+				56165E641925F4A9003643D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56165E251925F4A9003643D7 /* Project object */;
+}
