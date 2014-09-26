@@ -8,6 +8,7 @@
 
 #import "MOLPayExampleViewController.h"
 #import <MOLPayLibrary/MOLPayLib.h>
+#import "MPHelper.h"
 
 @interface MOLPayExampleViewController ()<MOLPayDelegate>
 
@@ -39,35 +40,37 @@
 #pragma mark - Action
 //-------------------------
 - (IBAction)payButton:(id)sender {
-    NSDictionary * paymentRequestDict =
-    @{
-      mp_username: (Type: NSString),
-      mp_password: (Type: NSString),
-      
-      mp_merchant_ID: (Type: NSString),
-      mp_app_name: (Type: NSString),
-      mp_verification_key: (Type: NSString),
-      
-      mp_order_ID: (Type: NSString),
-      mp_amount:[NSString stringWithFormat:@"%.2f", (Type: CGFloat)],
-      
-      mp_currency: (Type: NSString),
-      mp_channel: (Type: NSString),
-      mp_country: (Type: NSString),
-      
-      mp_bill_name: (Type: NSString),
-      mp_bill_email: (Type: NSString),
-      mp_bill_mobile: (Type: NSString),
-      mp_bill_description: (Type: NSString),
-      
-      mp_editing_enabled: [NSNumber numberWithBool:YES],
-      mp_debug_mode:[NSNumber numberWithBool:YES] //please disable before release
-      };
+//    NSDictionary * paymentRequestDict =
+//    @{
+//      mp_username: (Type: NSString),
+//      mp_password: (Type: NSString),
+//      
+//      mp_merchant_ID: (Type: NSString),
+//      mp_app_name: (Type: NSString),
+//      mp_verification_key: (Type: NSString),
+//      
+//      mp_order_ID: (Type: NSString),
+//      mp_amount:[NSString stringWithFormat:@"%.2f", (Type: CGFloat)],
+//      
+//      mp_currency: (Type: NSString),
+//      mp_channel: (Type: NSString),
+//      mp_country: (Type: NSString),
+//      
+//      mp_bill_name: (Type: NSString),
+//      mp_bill_email: (Type: NSString),
+//      mp_bill_mobile: (Type: NSString),
+//      mp_bill_description: (Type: NSString),
+//      
+//      mp_editing_enabled: [NSNumber numberWithBool:YES],
+//      mp_debug_mode:[NSNumber numberWithBool:YES] //please disable before release
+//      };
+    NSDictionary * paymentRequestDict = [MPHelper paymentRequestDictionary];
     
     MOLPayLib *molpay=[[MOLPayLib alloc] initWithTarget:self
                                       andPaymentDetails:paymentRequestDict];
     
     [molpay loadMOLPaySDK];
+    
     
 }
 
