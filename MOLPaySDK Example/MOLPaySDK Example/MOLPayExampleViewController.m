@@ -69,7 +69,6 @@
     
     [molpay loadMOLPaySDK];
     
-    
 }
 
 //-------------------------
@@ -86,6 +85,7 @@
 {
     NSLog(@"errorDescription:%@",errorDescription);
     self.resultTextView.text = [NSString stringWithFormat:@"errorDescription:%@",errorDescription];
+    
 
 }
 @end
