@@ -23,7 +23,6 @@
 		56165E5C1925F4A9003643D7 /* MOLPaySDK_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56165E5B1925F4A9003643D7 /* MOLPaySDK_ExampleTests.m */; };
 		5D10903C19D4FDFB00F65B4C /* MOLPayLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D10903B19D4FDFB00F65B4C /* MOLPayLibrary.framework */; };
 		5DF4EB1F19D3B16600B5E59A /* MOLPay.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5DF4EB1E19D3B16600B5E59A /* MOLPay.bundle */; };
-		5DF4EB2F19D400A200B5E59A /* MPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF4EB2E19D400A200B5E59A /* MPHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +57,6 @@
 		56165E5B1925F4A9003643D7 /* MOLPaySDK_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOLPaySDK_ExampleTests.m; sourceTree = "<group>"; };
 		5D10903B19D4FDFB00F65B4C /* MOLPayLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOLPayLibrary.framework; sourceTree = "<group>"; };
 		5DF4EB1E19D3B16600B5E59A /* MOLPay.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MOLPay.bundle; sourceTree = "<group>"; };
-		5DF4EB2D19D400A200B5E59A /* MPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPHelper.h; sourceTree = "<group>"; };
-		5DF4EB2E19D400A200B5E59A /* MPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +119,6 @@
 		56165E361925F4A9003643D7 /* MOLPaySDK Example */ = {
 			isa = PBXGroup;
 			children = (
-				5DF4EB2C19D400A200B5E59A /* MOLPay Dev Tools */,
 				56165E451925F4A9003643D7 /* MOLPayExampleViewController.h */,
 				56165E461925F4A9003643D7 /* MOLPayExampleViewController.m */,
 				56165E3F1925F4A9003643D7 /* MOLPayExampleAppDelegate.h */,
@@ -177,16 +173,6 @@
 			children = (
 			);
 			name = MOLPay;
-			sourceTree = "<group>";
-		};
-		5DF4EB2C19D400A200B5E59A /* MOLPay Dev Tools */ = {
-			isa = PBXGroup;
-			children = (
-				5DF4EB2D19D400A200B5E59A /* MPHelper.h */,
-				5DF4EB2E19D400A200B5E59A /* MPHelper.m */,
-			);
-			name = "MOLPay Dev Tools";
-			path = "../../../../../../../../Documents/WorkOffline/MOLPay SDK/MOLPay Dev Tools";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +276,6 @@
 			files = (
 				56165E3D1925F4A9003643D7 /* main.m in Sources */,
 				56165E411925F4A9003643D7 /* MOLPayExampleAppDelegate.m in Sources */,
-				5DF4EB2F19D400A200B5E59A /* MPHelper.m in Sources */,
 				56165E471925F4A9003643D7 /* MOLPayExampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
