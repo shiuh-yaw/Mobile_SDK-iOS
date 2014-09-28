@@ -8,7 +8,7 @@
 
 #import "MOLPayExampleViewController.h"
 #import <MOLPayLibrary/MOLPayLib.h>
-#import "MPHelper.h"
+
 @interface MOLPayExampleViewController ()<MOLPayDelegate>
 
 @end
@@ -39,31 +39,31 @@
 #pragma mark - Action
 //-------------------------
 - (IBAction)payButton:(id)sender {
-//    NSDictionary * paymentRequestDict =
-//    @{
-//      mp_username: (Type: NSString),
-//      mp_password: (Type: NSString),
-//      
-//      mp_merchant_ID: (Type: NSString),
-//      mp_app_name: (Type: NSString),
-//      mp_verification_key: (Type: NSString),
-//      
-//      mp_order_ID: (Type: NSString),
-//      mp_amount:[NSString stringWithFormat:@"%.2f", (Type: CGFloat)],
-//      
-//      mp_currency: (Type: NSString),
-//      mp_channel: (Type: NSString),
-//      mp_country: (Type: NSString),
-//      
-//      mp_bill_name: (Type: NSString),
-//      mp_bill_email: (Type: NSString),
-//      mp_bill_mobile: (Type: NSString),
-//      mp_bill_description: (Type: NSString),
-//      
-//      mp_editing_enabled: [NSNumber numberWithBool:YES],
-//      mp_debug_mode:[NSNumber numberWithBool:YES] //please disable before release
-//      };
-    NSDictionary * paymentRequestDict = [MPHelper paymentRequestDictionary];
+    NSDictionary * paymentRequestDict =
+    @{
+      mp_username: @"username",                 //(Type: NSString)
+      mp_password: @"password",                 //(Type: NSString)
+      
+      mp_merchant_ID: @"merchantid",            //(Type: NSString)
+      mp_app_name   :@"appname",                //(Type: NSString)
+      mp_verification_key: @"verifycationkey",  //(Type: NSString)
+      
+      mp_order_ID:@"orderID",                   //(Type: NSString)
+      mp_amount  :[NSString stringWithFormat:@"%.2f", 0.0f],//(Type: Float)
+      
+      mp_currency: @"currency",                 //(Type: NSString)
+      mp_channel : @"channel",                  //(Type: NSString)
+      mp_country : @"country",                  //(Type: NSString)
+      
+      mp_bill_name  : @"name",                  //(Type: NSString)
+      mp_bill_email : @"email",                 //(Type: NSString)
+      mp_bill_mobile: @"mobile",                //(Type: NSString)
+      mp_bill_description: @"Description",      //(Type: NSString)
+      
+      mp_editing_enabled: [NSNumber numberWithBool:YES],
+      mp_debug_mode:      [NSNumber numberWithBool:YES] //please disable before release
+      };
+    
     MOLPayLib *molpay=[[MOLPayLib alloc] initWithTarget:self
                                       andPaymentDetails:paymentRequestDict];
     
