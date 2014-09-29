@@ -1,5 +1,11 @@
-Mobile SDK 4.0.3 iOS
+Mobile SDK 4.0.3.2 iOS
 ==================
+
+Updates on 2014/09/29
+- added option to customise the navigation bar tint colour
+- added card format while editing card number.
+- fixed card tokeniser showing fail page
+- fixed missing header
 
 Updates on 2014/09/25
 
