@@ -10,7 +10,7 @@
 #import <MOLPayLibrary/MOLPayLib.h>
 
 @interface MOLPayExampleViewController ()<MOLPayDelegate>
-
+@property (nonatomic, weak) IBOutlet UIButton * payButton;
 @end
 
 @implementation MOLPayExampleViewController
@@ -20,6 +20,9 @@
     [super viewDidLoad];
 
     self.versionLabel.text = [MOLPayLib MOLPaySDKVersion];
+    [self.payButton setBackgroundImage:[[UIImage imageNamed:@"MOLPay.bundle/defaultButton"]
+                                        resizableImageWithCapInsets:UIEdgeInsetsMake(14, 13, 16, 14)] forState:UIControlStateNormal];
+    self.payButton.titleLabel.textColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning
@@ -61,7 +64,12 @@
       mp_bill_description: @"Description",      //(Type: NSString)
       
       mp_editing_enabled: [NSNumber numberWithBool:YES],
-      mp_debug_mode:      [NSNumber numberWithBool:YES] //please disable before release
+      mp_debug_mode:      [NSNumber numberWithBool:YES], //please disable before release
+      mp_navigation_bar_tint_color:[UIColor colorWithRed:0.5f //customize the navigation bar tint color
+                                                   green:0.06
+                                                    blue:0.49
+                                                   alpha:1.0]
+
       };
     
     MOLPayLib *molpay=[[MOLPayLib alloc] initWithTarget:self
@@ -76,16 +84,11 @@
 //-------------------------
 -(void)paymentRequestSuccessWithPaymentDetails:(NSDictionary *)paymentDetailsDict
 {
-    NSLog(@"paymentDetailsDict:%@",paymentDetailsDict);
-    
     self.resultTextView.text = [NSString stringWithFormat:@"paymentDetailsDict:%@",paymentDetailsDict];
 }
 
 -(void)paymentRequestFailedWithErrorDescription:(NSDictionary *)errorDescription
 {
-    NSLog(@"errorDescription:%@",errorDescription);
     self.resultTextView.text = [NSString stringWithFormat:@"errorDescription:%@",errorDescription];
-    
-
 }
 @end

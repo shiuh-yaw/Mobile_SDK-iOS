@@ -39,4 +39,9 @@
  Enable editing for name, email, mobile number & description
  */
 #define mp_editing_enabled @"mp_editing_enabled"
+
+/**
+ Customizing Navigation UI
+ */
+#define mp_navigation_bar_tint_color    @"mp_navigation_bar_tint_color"
 #endif
