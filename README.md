@@ -1,6 +1,12 @@
 Mobile SDK 4.0.3.2 iOS
 ==================
 
+Updates on 2014/10/17
+- fixed placeholder color for editable field not in grey colour
+- update for placeholder text
+
+
+
 Updates on 2014/09/29
 - added option to customise the navigation bar tint colour
 - added card format while editing card number.
