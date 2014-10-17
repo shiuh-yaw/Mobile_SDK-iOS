@@ -1,4 +1,4 @@
-Mobile SDK 4.0.3.2 iOS
+Mobile SDK 4.0.3.4 iOS
 ==================
 
 Updates on 2014/10/17
