@@ -3,69 +3,73 @@
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "MyparliamentIcon58px.png",
+      "filename" : "MOLPayExampleIcon58px-iPhoneSetting.png",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "MyparliamentIcon87px.png",
+      "filename" : "MOLPayExampleIcon87px-iPhoneSetting.png",
       "scale" : "3x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "MyparliamentIcon80px.png",
+      "filename" : "MOLPayExampleIcon80px-iPhoneSpotlight.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "MyparliamentIcon120px-1.png",
+      "filename" : "MOLPayExampleIcon120px-iPhoneSpotlight.png",
       "scale" : "3x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "MyparliamentIcon120px.png",
+      "filename" : "MOLPayExampleIcon120px-iPhoneApp.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "MyparliamentIcon180px.png",
+      "filename" : "MOLPayExampleIcon180px-iPhoneApp.png",
       "scale" : "3x"
     },
     {
-      "idiom" : "ipad",
       "size" : "29x29",
+      "idiom" : "ipad",
+      "filename" : "MOLPayExampleIcon29px-iPadSetting.png",
       "scale" : "1x"
     },
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "MyparliamentIcon58px-1.png",
+      "filename" : "MOLPayExampleIcon58px-iPadSetting.png",
       "scale" : "2x"
-    },
-    {
-      "idiom" : "ipad",
-      "size" : "40x40",
-      "scale" : "1x"
     },
     {
       "size" : "40x40",
       "idiom" : "ipad",
-      "filename" : "MyparliamentIcon80px-1.png",
-      "scale" : "2x"
-    },
-    {
-      "idiom" : "ipad",
-      "size" : "76x76",
+      "filename" : "MOLPayExampleIcon40px-iPadSpotlight.png",
       "scale" : "1x"
     },
     {
+      "size" : "40x40",
       "idiom" : "ipad",
+      "filename" : "MOLPayExampleIcon80px-iPadSpotlight.png",
+      "scale" : "2x"
+    },
+    {
       "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "MOLPayExampleIcon76px-iPadApp.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "MOLPayExampleIcon152px-iPadApp.png",
       "scale" : "2x"
     }
   ],
