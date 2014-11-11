@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DBA77CE1A11F8D7007E6E18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA77CD1A11F8D7007E6E18 /* main.m */; };
+		5DBA77D11A11F8D7007E6E18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA77D01A11F8D7007E6E18 /* AppDelegate.m */; };
+		5DBA77D41A11F8D7007E6E18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA77D31A11F8D7007E6E18 /* ViewController.m */; };
+		5DBA77D71A11F8D7007E6E18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA77D51A11F8D7007E6E18 /* Main.storyboard */; };
+		5DBA77D91A11F8D7007E6E18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA77D81A11F8D7007E6E18 /* Images.xcassets */; };
+		5DBA77DC1A11F8D7007E6E18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA77DA1A11F8D7007E6E18 /* LaunchScreen.xib */; };
+		5DBA77E81A11F8D7007E6E18 /* MOLPayExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA77E71A11F8D7007E6E18 /* MOLPayExampleTests.m */; };
+		5DBA77F31A11FA92007E6E18 /* MOLPay.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA77F11A11FA92007E6E18 /* MOLPay.bundle */; };
+		5DBA77F41A11FA92007E6E18 /* MOLPayLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBA77F21A11FA92007E6E18 /* MOLPayLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DBA77E21A11F8D7007E6E18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DBA77C01A11F8D7007E6E18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DBA77C71A11F8D7007E6E18;
+			remoteInfo = MOLPayExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DBA77C81A11F8D7007E6E18 /* MOLPayExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOLPayExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBA77CC1A11F8D7007E6E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DBA77CD1A11F8D7007E6E18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DBA77CF1A11F8D7007E6E18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DBA77D01A11F8D7007E6E18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DBA77D21A11F8D7007E6E18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5DBA77D31A11F8D7007E6E18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5DBA77D61A11F8D7007E6E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DBA77D81A11F8D7007E6E18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5DBA77DB1A11F8D7007E6E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5DBA77E11A11F8D7007E6E18 /* MOLPayExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOLPayExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBA77E61A11F8D7007E6E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DBA77E71A11F8D7007E6E18 /* MOLPayExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOLPayExampleTests.m; sourceTree = "<group>"; };
+		5DBA77F11A11FA92007E6E18 /* MOLPay.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MOLPay.bundle; sourceTree = "<group>"; };
+		5DBA77F21A11FA92007E6E18 /* MOLPayLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOLPayLibrary.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DBA77C51A11F8D7007E6E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBA77F41A11FA92007E6E18 /* MOLPayLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBA77DE1A11F8D7007E6E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DBA77BF1A11F8D7007E6E18 = {
+			isa = PBXGroup;
+			children = (
+				5DBA77CA1A11F8D7007E6E18 /* MOLPayExample */,
+				5DBA77E41A11F8D7007E6E18 /* MOLPayExampleTests */,
+				5DBA77C91A11F8D7007E6E18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DBA77C91A11F8D7007E6E18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA77C81A11F8D7007E6E18 /* MOLPayExample.app */,
+				5DBA77E11A11F8D7007E6E18 /* MOLPayExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DBA77CA1A11F8D7007E6E18 /* MOLPayExample */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA77F11A11FA92007E6E18 /* MOLPay.bundle */,
+				5DBA77F21A11FA92007E6E18 /* MOLPayLibrary.framework */,
+				5DBA77CF1A11F8D7007E6E18 /* AppDelegate.h */,
+				5DBA77D01A11F8D7007E6E18 /* AppDelegate.m */,
+				5DBA77D21A11F8D7007E6E18 /* ViewController.h */,
+				5DBA77D31A11F8D7007E6E18 /* ViewController.m */,
+				5DBA77D51A11F8D7007E6E18 /* Main.storyboard */,
+				5DBA77D81A11F8D7007E6E18 /* Images.xcassets */,
+				5DBA77DA1A11F8D7007E6E18 /* LaunchScreen.xib */,
+				5DBA77CB1A11F8D7007E6E18 /* Supporting Files */,
+			);
+			path = MOLPayExample;
+			sourceTree = "<group>";
+		};
+		5DBA77CB1A11F8D7007E6E18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA77CC1A11F8D7007E6E18 /* Info.plist */,
+				5DBA77CD1A11F8D7007E6E18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DBA77E41A11F8D7007E6E18 /* MOLPayExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA77E71A11F8D7007E6E18 /* MOLPayExampleTests.m */,
+				5DBA77E51A11F8D7007E6E18 /* Supporting Files */,
+			);
+			path = MOLPayExampleTests;
+			sourceTree = "<group>";
+		};
+		5DBA77E51A11F8D7007E6E18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DBA77E61A11F8D7007E6E18 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DBA77C71A11F8D7007E6E18 /* MOLPayExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBA77EB1A11F8D7007E6E18 /* Build configuration list for PBXNativeTarget "MOLPayExample" */;
+			buildPhases = (
+				5DBA77C41A11F8D7007E6E18 /* Sources */,
+				5DBA77C51A11F8D7007E6E18 /* Frameworks */,
+				5DBA77C61A11F8D7007E6E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOLPayExample;
+			productName = MOLPayExample;
+			productReference = 5DBA77C81A11F8D7007E6E18 /* MOLPayExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DBA77E01A11F8D7007E6E18 /* MOLPayExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBA77EE1A11F8D7007E6E18 /* Build configuration list for PBXNativeTarget "MOLPayExampleTests" */;
+			buildPhases = (
+				5DBA77DD1A11F8D7007E6E18 /* Sources */,
+				5DBA77DE1A11F8D7007E6E18 /* Frameworks */,
+				5DBA77DF1A11F8D7007E6E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DBA77E31A11F8D7007E6E18 /* PBXTargetDependency */,
+			);
+			name = MOLPayExampleTests;
+			productName = MOLPayExampleTests;
+			productReference = 5DBA77E11A11F8D7007E6E18 /* MOLPayExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DBA77C01A11F8D7007E6E18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = MOLPay;
+				TargetAttributes = {
+					5DBA77C71A11F8D7007E6E18 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					5DBA77E01A11F8D7007E6E18 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 5DBA77C71A11F8D7007E6E18;
+					};
+				};
+			};
+			buildConfigurationList = 5DBA77C31A11F8D7007E6E18 /* Build configuration list for PBXProject "MOLPayExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DBA77BF1A11F8D7007E6E18;
+			productRefGroup = 5DBA77C91A11F8D7007E6E18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DBA77C71A11F8D7007E6E18 /* MOLPayExample */,
+				5DBA77E01A11F8D7007E6E18 /* MOLPayExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DBA77C61A11F8D7007E6E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBA77D71A11F8D7007E6E18 /* Main.storyboard in Resources */,
+				5DBA77DC1A11F8D7007E6E18 /* LaunchScreen.xib in Resources */,
+				5DBA77D91A11F8D7007E6E18 /* Images.xcassets in Resources */,
+				5DBA77F31A11FA92007E6E18 /* MOLPay.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBA77DF1A11F8D7007E6E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DBA77C41A11F8D7007E6E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBA77D41A11F8D7007E6E18 /* ViewController.m in Sources */,
+				5DBA77D11A11F8D7007E6E18 /* AppDelegate.m in Sources */,
+				5DBA77CE1A11F8D7007E6E18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBA77DD1A11F8D7007E6E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBA77E81A11F8D7007E6E18 /* MOLPayExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DBA77E31A11F8D7007E6E18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DBA77C71A11F8D7007E6E18 /* MOLPayExample */;
+			targetProxy = 5DBA77E21A11F8D7007E6E18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DBA77D51A11F8D7007E6E18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DBA77D61A11F8D7007E6E18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DBA77DA1A11F8D7007E6E18 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DBA77DB1A11F8D7007E6E18 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DBA77E91A11F8D7007E6E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DBA77EA1A11F8D7007E6E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DBA77EC1A11F8D7007E6E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MOLPayExample",
+				);
+				INFOPLIST_FILE = MOLPayExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DBA77ED1A11F8D7007E6E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MOLPayExample",
+				);
+				INFOPLIST_FILE = MOLPayExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5DBA77EF1A11F8D7007E6E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MOLPayExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOLPayExample.app/MOLPayExample";
+			};
+			name = Debug;
+		};
+		5DBA77F01A11F8D7007E6E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MOLPayExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOLPayExample.app/MOLPayExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DBA77C31A11F8D7007E6E18 /* Build configuration list for PBXProject "MOLPayExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBA77E91A11F8D7007E6E18 /* Debug */,
+				5DBA77EA1A11F8D7007E6E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DBA77EB1A11F8D7007E6E18 /* Build configuration list for PBXNativeTarget "MOLPayExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBA77EC1A11F8D7007E6E18 /* Debug */,
+				5DBA77ED1A11F8D7007E6E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DBA77EE1A11F8D7007E6E18 /* Build configuration list for PBXNativeTarget "MOLPayExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBA77EF1A11F8D7007E6E18 /* Debug */,
+				5DBA77F01A11F8D7007E6E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DBA77C01A11F8D7007E6E18 /* Project object */;
+}
