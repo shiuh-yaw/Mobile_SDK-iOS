@@ -1,13 +1,13 @@
 Mobile SDK 4.0.3.4 iOS
 ==================
 Updates on 2014/11/11
+- Fixed simulator 5s above & iOS device cannot build.
 - When “editing option for basic info” is enabled, the delegate “-paymentRequestSuccessWithPaymentDetails:” will include this field
 	- bill_name
 	- bill_email
 	- bill_desc
 	- bill_mobile
 
-- Fixed simulator 5s above & iOS device cannot build.
 
 
 
