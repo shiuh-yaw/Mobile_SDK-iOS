@@ -23,14 +23,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-#if TARGET_IPHONE_SIMULATOR
-    NSLog(@"Documents Directory: %@", [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject]);
-#endif
-    
     self.versionLabel.text = [MOLPayLib MOLPaySDKVersion];
     [self.payButton setBackgroundImage:[[UIImage imageNamed:@"MOLPay.bundle/defaultButton"]
                                         resizableImageWithCapInsets:UIEdgeInsetsMake(14, 13, 16, 14)] forState:UIControlStateNormal];
-    
 }
 
 -(void)viewDidLayoutSubviews{
@@ -44,7 +39,7 @@
 //-------------------------
 #pragma mark - Action
 //-------------------------
-- (IBAction)payButton:(id)sender {
+- (IBAction)payButton:(id)sender {    
     NSDictionary * paymentRequestDict =
     @{
       mp_username: @"username",                 //(Type: NSString)
@@ -108,5 +103,6 @@
 {
     self.resultTextView.text = [NSString stringWithFormat:@"errorDescription:%@",errorDescription];
 }
+
 
 @end
