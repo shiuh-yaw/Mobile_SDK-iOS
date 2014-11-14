@@ -1,5 +1,9 @@
-Mobile SDK 4.0.3.5 iOS
+Mobile SDK 4.0.3.6 iOS
 ==================
+Updates on 2014/11/14
+- fixed notification url not triggered for certain channel.
+- card page showing weird loading.
+
 Updates on 2014/11/11
 - Fixed simulator 5s above & iOS device cannot build.
 - When “editing option for basic info” is enabled, the delegate “-paymentRequestSuccessWithPaymentDetails:” will include this field
