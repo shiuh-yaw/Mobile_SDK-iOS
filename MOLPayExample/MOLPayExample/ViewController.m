@@ -72,10 +72,29 @@
     
     
     MOLPayLib *molpay=[[MOLPayLib alloc] initWithTarget:self
-                                      andPaymentDetails:paymentRequestDict];
+                                      andPaymentDetails: paymentRequestDict];
     
     [molpay loadMOLPaySDK];
+
+    /* ------------------------
+     * Request payment result
+     * ------------------------
+     *
+     * For request payment result by order ID, 
+        replace mp_transaction_id with mp_order_ID.
+     *
+     
+     MOLPayLib *molpay=[[MOLPayLib alloc] initWithTarget:self
+                                      andPaymentDetails:nil];
     
+     [molpay requestPaymentResult:@{
+                                    mp_order_ID:@"order id",
+                                    mp_transaction_id:@"transaction id",
+                                    mp_merchant_ID:@"merchant id",
+                                    mp_amount:[NSString stringWithFormat:@"%.2f", 1.0f],
+                                    mp_verification_key:@"verify key"
+                                    }];
+     */
 }
 
 //-------------------------
@@ -102,6 +121,14 @@
 -(void)paymentRequestFailedWithErrorDescription:(NSDictionary *)errorDescription
 {
     self.resultTextView.text = [NSString stringWithFormat:@"errorDescription:%@",errorDescription];
+}
+
+- (void)resultRequestSuccessWithPaymentDetails:(NSDictionary *)paymentDetailsDict{
+    self.resultTextView.text = [NSString stringWithFormat:@"paymentDetailsDict:%@",paymentDetailsDict];
+
+}
+- (void)resultRequestFailedWithErrorDescription:(NSDictionary *)paymentDetailsDict{
+    self.resultTextView.text = [NSString stringWithFormat:@"errorDescription:%@",paymentDetailsDict];
 }
 
 
