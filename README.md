@@ -1,4 +1,4 @@
-Mobile SDK 4.0.3.6 iOS
+Mobile SDK 4.0.3.7 iOS
 ==================
 Updates on 2014/11/14
 - added request payment result by order ID.
