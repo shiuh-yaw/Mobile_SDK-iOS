@@ -1,6 +1,9 @@
 Mobile SDK 4.0.3.6 iOS
 ==================
 Updates on 2014/11/14
+- added request payment result by order ID.
+
+Updates on 2014/11/14
 - fixed notification url not triggered for certain channel.
 - card page showing weird loading.
 
