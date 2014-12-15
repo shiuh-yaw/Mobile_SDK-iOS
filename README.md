@@ -1,5 +1,3 @@
-
-
 Mobile SDK 4.0.3.8 iOS
 ==================
 Updates on 2014/12/15
@@ -52,6 +50,10 @@ Updates on 2014/05/16
 - Native app UI for credit card payment
 - Secure 1-click payment (tokenization) supported
 
+Installations
+---
+Please refer to MOLPay SDK iOS pdf 
+
 Prerequisites
 ---
 1. MOLPay merchant ID
@@ -62,3 +64,16 @@ Prerequisites
 
 Note: Please get these information from sales or support team
 
+Issues
+---
+Submit issue to this repository or email to our support@molpay.com
+
+Support
+---
+Merchant Technical Support / Customer Care : support@molpay.com <br>
+Sales/Reseller Enquiry : sales@molpay.com <br>
+Marketing Campaign : marketing@molpay.com <br>
+Channel/Partner Enquiry : channel@molpay.com <br>
+Media Contact : media@molpay.com <br>
+R&D and Tech-related Suggestion : technical@molpay.com <br>
+Abuse Reporting : abuse@molpay.com
