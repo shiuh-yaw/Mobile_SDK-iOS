@@ -1,3 +1,5 @@
+<img src="http://molpay.com/v2/images/molpay/footer-molpay-logo.png" alt="AFNetworking" title="MOLPay"  style="max-width:100%;">
+
 Mobile SDK 4.0.3.8 iOS
 ==================
 Updates on 2014/12/15
