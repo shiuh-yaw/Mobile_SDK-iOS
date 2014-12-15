@@ -50,9 +50,8 @@ Updates on 2014/05/16
 - Native app UI for credit card payment
 - Secure 1-click payment (tokenization) supported
 
-
 Prerequisites
-
+---
 1. MOLPay merchant ID
 2. Merchant App Name
 3. Verify Key
