@@ -1,6 +1,6 @@
 Mobile SDK 4.0.3.8 iOS
 ==================
-Updates on 2014/12/07
+Updates on 2014/12/15
 - added support for escrow. (See MOLPay_SDK_iOS_4.0.3.8.pdf chapter 3.3.1)
 	- mp_is_escrow
  
