@@ -34,6 +34,7 @@
 #define mp_status_code      @"mp_status_code"
 #define mp_error_desc       @"mp_error_desc"
 #define mp_check_sum        @"mp_check_sum"
+#define mp_is_escrow        @"mp_is_escrow"
 
 /** 
  Enable editing for name, email, mobile number & description

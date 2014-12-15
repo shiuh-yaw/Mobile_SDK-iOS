@@ -61,6 +61,8 @@
       mp_bill_mobile: @"mobile",                //(Type: NSString)
       mp_bill_description: @"Description",      //(Type: NSString)
       
+      mp_is_escrow:       [NSNumber numberWithBool:NO], //Enable escrow
+
       mp_editing_enabled: [NSNumber numberWithBool:YES],
       mp_debug_mode:      [NSNumber numberWithBool:YES], //please disable before release
       mp_navigation_bar_tint_color:[UIColor colorWithRed:0.5f //customize the navigation bar tint color
