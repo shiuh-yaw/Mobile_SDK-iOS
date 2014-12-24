@@ -1,5 +1,8 @@
-Mobile SDK 4.0.3.8 iOS
+Mobile SDK 4.0.3.9 iOS
 ==================
+Updates on 2014/12/24
+- fixed bug related to Hong leong bank channel.
+
 Updates on 2014/12/15
 - added support for escrow. (See MOLPay_SDK_iOS_4.0.3.8.pdf chapter 3.3.1)
 	- mp_is_escrow
