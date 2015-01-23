@@ -68,8 +68,8 @@
       mp_navigation_bar_tint_color:[UIColor colorWithRed:0.5f //customize the navigation bar tint color
                                                    green:0.06
                                                     blue:0.49
-                                                   alpha:1.0]
-      
+                                                   alpha:1.0],
+      mp_url_scheme:@"molpayExample"    //MOLWallet channel will use this to return result
       };
     
     
