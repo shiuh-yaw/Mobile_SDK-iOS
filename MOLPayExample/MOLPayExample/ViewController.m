@@ -69,7 +69,7 @@
                                                    green:0.06
                                                     blue:0.49
                                                    alpha:1.0],
-      mp_url_scheme:@"molpayExample"    //MOLWallet channel will use this to return result
+      mp_url_scheme:@"URL SCHEME"               //(Type: NSString)
       };
     
     
