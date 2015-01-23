@@ -36,6 +36,8 @@
 #define mp_check_sum        @"mp_check_sum"
 #define mp_is_escrow        @"mp_is_escrow"
 
+#define mp_url_scheme @"mp_url_scheme"
+
 /** 
  Enable editing for name, email, mobile number & description
  */

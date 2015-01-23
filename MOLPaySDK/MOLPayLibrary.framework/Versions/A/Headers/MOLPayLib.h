@@ -28,6 +28,11 @@
 + (NSString *)MOLPaySDKVersion;
 
 /**
+ @abstract Call this method from the [UIApplicationDelegate application:openURL:sourceApplication:annotation:] method of the AppDelegate for your app. It should be invoked for the proper processing of responses during interaction with the native MOLWallet app .
+ */
++ (BOOL)handleOpenURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication;
+
+/**
  Used for merchant to  check payment result by providing their details.
  
  @param transactionInfo 
