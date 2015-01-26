@@ -5,8 +5,7 @@ Mobile SDK 4.0.4 iOS
 <img src=https://cloud.githubusercontent.com/assets/4816292/5699853/62cb8064-9a6c-11e4-9aac-a16ef28703ed.jpg height=300>
 
 Updates on 2015/01/23
-- added MOLWallet channel support
-
+- added MOLWallet channel support. (see MOLPay_SDK_iOS_4.0.4.pdf chapter 4)
 
 Updates on 2014/12/24
 - fixed bug related to Hong leong bank channel.
@@ -15,8 +14,6 @@ Updates on 2014/12/15
 - added support for escrow. (See MOLPay_SDK_iOS_4.0.3.8.pdf chapter 3.3.1)
 	- mp_is_escrow
 - fixed after closing maybank/cimb site, nothing happen
- 
-
 
 Updates on 2014/12/07
 - added request payment result by order ID.
