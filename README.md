@@ -8,7 +8,7 @@ Updates on 2015/02/13
 - fixed bug
  - cash channel (7-11) returning different channel.
  - cash channel (7-11) showing json in the background
-- mp_channel_editing added (In order to preselect channel but still letting the user to choose channel, this is what you need).
+- mp_channel_editing added (In order to preselect channel but the user still able to choose channel, this is what you need).
 
 
 Updates on 2015/01/23
