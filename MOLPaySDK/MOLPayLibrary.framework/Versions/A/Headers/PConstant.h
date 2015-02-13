@@ -12,10 +12,11 @@
 #define mp_username         @"mp_username"
 #define mp_password         @"mp_password"
 
-#define mp_merchant_ID  @"mp_merchant_ID"
-#define mp_verification_key   @"mp_verification_key"
-#define mp_app_name           @"mp_app_name"
+#define mp_merchant_ID          @"mp_merchant_ID"
+#define mp_verification_key     @"mp_verification_key"
+#define mp_app_name             @"mp_app_name"
 
+#define mp_molwallet_id     @"mp_molwallet_id"
 #define mp_bill_name          @"mp_bill_name"
 #define mp_bill_email         @"mp_bill_email"
 #define mp_bill_mobile        @"mp_bill_mobile"
@@ -36,6 +37,9 @@
 #define mp_check_sum        @"mp_check_sum"
 #define mp_is_escrow        @"mp_is_escrow"
 
+/**
+ Used by SDK to communicate with MOLWallet
+ */
 #define mp_url_scheme @"mp_url_scheme"
 
 /** 
@@ -47,4 +51,14 @@
  Customizing Navigation UI
  */
 #define mp_navigation_bar_tint_color    @"mp_navigation_bar_tint_color"
+
+/**
+ To allow user to choose different channel in MOLPay SDK
+ */
+#define mp_channel_editing @"mp_channel_editing"
+
+/**
+ Enable this to show receipt on every success/failed transaction
+ */
+#define mp_receipt_enabled @"mp_receipt_enabled"
 #endif

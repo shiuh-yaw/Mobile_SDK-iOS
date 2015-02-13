@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D39FB251A8D9B4800FCC888 /* MOLPayLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D39FB241A8D9B4800FCC888 /* MOLPayLibrary.framework */; };
 		5D3C84531A723F5B00B97629 /* MOLPay.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5D3C84511A723F5B00B97629 /* MOLPay.bundle */; };
-		5D3C84541A723F5B00B97629 /* MOLPayLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3C84521A723F5B00B97629 /* MOLPayLibrary.framework */; };
 		5DBA77CE1A11F8D7007E6E18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA77CD1A11F8D7007E6E18 /* main.m */; };
 		5DBA77D11A11F8D7007E6E18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA77D01A11F8D7007E6E18 /* AppDelegate.m */; };
 		5DBA77D41A11F8D7007E6E18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBA77D31A11F8D7007E6E18 /* ViewController.m */; };
@@ -29,8 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D39FB241A8D9B4800FCC888 /* MOLPayLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOLPayLibrary.framework; sourceTree = "<group>"; };
 		5D3C84511A723F5B00B97629 /* MOLPay.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MOLPay.bundle; sourceTree = "<group>"; };
-		5D3C84521A723F5B00B97629 /* MOLPayLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOLPayLibrary.framework; sourceTree = "<group>"; };
 		5DBA77C81A11F8D7007E6E18 /* MOLPayExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOLPayExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DBA77CC1A11F8D7007E6E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DBA77CD1A11F8D7007E6E18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D3C84541A723F5B00B97629 /* MOLPayLibrary.framework in Frameworks */,
+				5D39FB251A8D9B4800FCC888 /* MOLPayLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				5D3C84511A723F5B00B97629 /* MOLPay.bundle */,
-				5D3C84521A723F5B00B97629 /* MOLPayLibrary.framework */,
+				5D39FB241A8D9B4800FCC888 /* MOLPayLibrary.framework */,
 				5DBA77CF1A11F8D7007E6E18 /* AppDelegate.h */,
 				5DBA77D01A11F8D7007E6E18 /* AppDelegate.m */,
 				5DBA77D21A11F8D7007E6E18 /* ViewController.h */,
