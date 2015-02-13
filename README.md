@@ -1,8 +1,15 @@
-Mobile SDK 4.0.4 iOS
+Mobile SDK 4.0.4 (132) iOS
 ==================
 <h3>Screenshots</h3>
 <img src=https://cloud.githubusercontent.com/assets/4816292/5699854/62cde0a2-9a6c-11e4-8fae-d59e9590e912.jpg height=300>
 <img src=https://cloud.githubusercontent.com/assets/4816292/5699853/62cb8064-9a6c-11e4-9aac-a16ef28703ed.jpg height=300>
+
+Updates on 2015/02/13
+- fixed bug
+ - cash channel (7-11) returning different channel.
+ - cash channel (7-11) showing json in the background
+- mp_channel_editing added (In order to preselect channel but still letting the user to choose channel, this is what you need).
+
 
 Updates on 2015/01/23
 - added MOLWallet channel support. (see MOLPay_SDK_iOS_4.0.4.pdf chapter 4)
