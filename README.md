@@ -4,6 +4,13 @@ Mobile SDK 4.0.4 (133) iOS
 <img src=https://cloud.githubusercontent.com/assets/4816292/5699854/62cde0a2-9a6c-11e4-8fae-d59e9590e912.jpg height=300>
 <img src=https://cloud.githubusercontent.com/assets/4816292/5699853/62cb8064-9a6c-11e4-9aac-a16ef28703ed.jpg height=300>
 
+Updates on 2015/03/18
+- fixed bug
+ - access denied when using language other than english.
+ - error message "Invalid Parameter Requested" when using language other than english.
+ - channel MOLWallet crash.
+
+
 Updates on 2015/02/17
 - fixed bug
  - channel cash crash after pressing AlertView "ok" button
