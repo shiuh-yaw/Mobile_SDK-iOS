@@ -1,8 +1,17 @@
-Mobile SDK 4.0.5 iOS
+Mobile SDK 4.0.6 iOS
 ==================
 <h3>Screenshots</h3>
 <img src=https://cloud.githubusercontent.com/assets/4816292/5699854/62cde0a2-9a6c-11e4-8fae-d59e9590e912.jpg height=300>
 <img src=https://cloud.githubusercontent.com/assets/4816292/5699853/62cb8064-9a6c-11e4-9aac-a16ef28703ed.jpg height=300>
+
+Updates on 2015/06/03
+> Added secure mode option. 
+> Added receipt option (for cash channel).
+> Update localised text
+> Fixed Bug
+ - Month & year option a bit off set
+ - if didn’t dismiss the keyboard, the value won’t update.
+ - channel selection page didn’t rotate.
 
 Updates on 2015/03/18
 - fixed bug
