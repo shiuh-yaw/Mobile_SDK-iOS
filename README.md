@@ -101,6 +101,29 @@ Prerequisites
 
 Note: Please get these information from sales or support team
 
+Configure Navigation bar color
+---
+Change the color of the navigation by adding field mp_navigation_bar_tint_color together with the desired color.
+
+Example Red Navigation Bar:
+```
+mp_navigation_bar_tint_color:[UIColor redColor]
+```
+<img src=https://cloud.githubusercontent.com/assets/8925841/7960788/b1001680-0a35-11e5-9ca4-c0fc76431b21.png height=200>
+
+Example Dark Blue Navigation Bar:
+```
+mp_navigation_bar_tint_color:[UIColor colorWithRed:0.05f green:0.11 blue:0.28 alpha:1.0]
+```
+<img src=https://cloud.githubusercontent.com/assets/8925841/7960790/b103ce2e-0a35-11e5-9ed3-0b1679663a1e.png height=200>
+
+Example Dark Green Navigation Bar:
+```
+mp_navigation_bar_tint_color:[UIColor colorWithRed:0.15f green:0.28 blue:0.13 alpha:1.0]
+```
+<img src=https://cloud.githubusercontent.com/assets/8925841/7960789/b1010a18-0a35-11e5-9a23-636cda0ec1af.png height=200>
+
+
 Issues
 ---
 Submit issue to this repository or email to our support@molpay.com
