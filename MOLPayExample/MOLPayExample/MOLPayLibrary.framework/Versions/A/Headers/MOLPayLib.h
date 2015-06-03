@@ -2,8 +2,8 @@
 //  MOLPayLib.h
 //  MOLPayLib
 //
-//  Created by Wilwe on 2/4/13.
-//  Copyright (c) 2013 Wilwe. All rights reserved.
+//  Created by Arif Jusoh on 2/4/13.
+//  Copyright (c) 2014 Arif Jusoh. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

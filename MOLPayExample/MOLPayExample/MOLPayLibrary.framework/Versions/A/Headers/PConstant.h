@@ -37,6 +37,7 @@
 #define mp_check_sum        @"mp_check_sum"
 #define mp_is_escrow        @"mp_is_escrow"
 
+#define mp_is_secure    @"mp_is_secure"
 /**
  Used by SDK to communicate with MOLWallet
  */
