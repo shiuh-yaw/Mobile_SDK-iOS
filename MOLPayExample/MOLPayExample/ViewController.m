@@ -66,6 +66,7 @@
       mp_channel_editing: [NSNumber numberWithBool:YES], //enable channel editing
       mp_editing_enabled: [NSNumber numberWithBool:YES],
       mp_debug_mode:      [NSNumber numberWithBool:YES], //please disable before release
+      mp_receipt_enabled:[NSNumber numberWithBool:YES],  //Enable Receipt page for 7eleven channel
       mp_navigation_bar_tint_color:[UIColor colorWithRed:0.5f //customize the navigation bar tint color
                                                    green:0.06
                                                     blue:0.49
