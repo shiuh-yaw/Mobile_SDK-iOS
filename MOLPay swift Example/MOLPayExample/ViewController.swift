@@ -66,23 +66,7 @@ class ViewController: UIViewController,MOLPayDelegate{
         
         var molpay: MOLPayLib = MOLPayLib(target: self, andPaymentDetails: paymentDetails)
         
-//        molpay.loadMOLPaySDK()
-        
-        molpay.requestPaymentResult(
-            [
-                mp_transaction_id:"4717329",
-                mp_merchant_ID:"molpaymerchant",
-                mp_amount:"1.1",
-                mp_verification_key:"501c4f508cf1c3f486f4f5c820591f41",
-                mp_navigation_bar_tint_color:UIColor(
-                    red: CGFloat(0.5),
-                    green: CGFloat(0.06),
-                    blue: CGFloat(0.49),
-                    alpha: CGFloat(1.0)
-                ),
-                mp_receipt_enabled:true
-            ])
-    
+        molpay.loadMOLPaySDK()
         
         /* ------------------------
         * Request payment result

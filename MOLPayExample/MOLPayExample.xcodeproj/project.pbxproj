@@ -252,7 +252,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "TAGS=(\"mp_username: @\\\"username\\\"\", \"mp_password: @\\\"password\\\"\", \"mp_merchant_ID: @\\\"merchantid\\\"\", \"mp_verification_key: @\\\"verifycationkey\\\"\", \"mp_app_name   : @\\\"appname\\\"\")\n\ntLen=${#TAGS[@]}\n    \n    for (( i=0; i<${tLen}; i++ ));\n    do\n    echo \"searching ${SRCROOT} for ${TAGS[$i]}\"\n    find \"${SRCROOT}\" \\( -name \"*.m\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"(${TAGS[$i]}).*\\$\" | perl -p -e \"s/(${TAGS[$i]})/ error: Kindly fill in this field/\"\n    done";
+			shellScript = "TAGS=(\"mp_username: @\\\"username\\\"\", \"mp_password: @\\\"password\\\"\", \"mp_merchant_ID: @\\\"merchantid\\\"\", \"mp_verification_key: @\\\"verifycationkey\\\"\", \"mp_app_name   : @\\\"appname\\\"\")\n\ntLen=${#TAGS[@]}\n    \n    for (( i=0; i<${tLen}; i++ ));\n    do\n    echo \"searching ${SRCROOT} for ${TAGS[$i]}\"\n    find \"${SRCROOT}\" \\( -name \"*.m\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"(${TAGS[$i]}).*\\$\" | perl -p -e \"s/(${TAGS[$i]})/ error: Kindly fill in this field /\";\n    done";
 		};
 /* End PBXShellScriptBuildPhase section */
 
