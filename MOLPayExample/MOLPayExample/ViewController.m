@@ -46,11 +46,11 @@
       mp_password: @"password",                 //(Type: NSString)
       
       mp_merchant_ID: @"merchantid",            //(Type: NSString)
-      mp_app_name   :@"appname",                //(Type: NSString)
+      mp_app_name   : @"appname",                //(Type: NSString)
       mp_verification_key: @"verifycationkey",  //(Type: NSString)
       
       mp_order_ID:@"orderID",                   //(Type: NSString)
-      mp_amount  :[NSString stringWithFormat:@"%.2f", 0.0f],//(Type: Float)
+      mp_amount  :[NSString stringWithFormat:@"%.2f", 1.1f],//(Type: Float)
       
       mp_currency: @"currency",                 //(Type: NSString)
       mp_channel : @"channel",                  //(Type: NSString)
