@@ -6,6 +6,7 @@ Mobile SDK 4.0.6.1 iOS
 <img src=https://cloud.githubusercontent.com/assets/4816292/5699853/62cb8064-9a6c-11e4-9aac-a16ef28703ed.jpg height=300>
 
 Updates on 2015/06/03
+- Added swift integration example
 - Fixed Bug 
  - Add credit card always failed
  - When turn on debug mode, set mp_navigation_bar_tint_color will crash
