@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MOLPayExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0.0.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ncb-yW-awE">
+                                <rect key="frame" x="272" y="256" width="56" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="nLq-SL-lhe"/>
+                                    <constraint firstAttribute="height" constant="21" id="ssF-B3-o7o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXy-nr-XYR">
+                                <rect key="frame" x="242" y="216" width="116" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="XDq-3v-DEF"/>
+                                    <constraint firstAttribute="width" constant="116" id="hj3-qH-eVZ"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="MOL">
+                                        <attributes>
+                                            <color key="NSColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Pay">
+                                        <attributes>
+                                            <color key="NSColor" red="0.47058823529411764" green="0.070588235294117646" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="18" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+IAo
+</string>
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="SDK">
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbm-Uz-Kcv">
+                                <rect key="frame" x="258" y="285" width="84" height="30"/>
+                                <color key="backgroundColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="B0D-Ro-1RT"/>
+                                    <constraint firstAttribute="width" constant="84" id="sYU-sa-JRi"/>
+                                </constraints>
+                                <state key="normal" title="Pay"/>
+                                <connections>
+                                    <action selector="payButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="mJ3-uw-aAR"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3oC-CD-gyk">
+                                <rect key="frame" x="16" y="323" width="568" height="257"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="568" id="8bd-1H-Mwj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3oC-CD-gyk" firstAttribute="top" secondItem="dbm-Uz-Kcv" secondAttribute="bottom" constant="8" id="6HJ-S2-tVR"/>
+                            <constraint firstAttribute="centerY" secondItem="dbm-Uz-Kcv" secondAttribute="centerY" id="87o-Qd-qT3"/>
+                            <constraint firstItem="3oC-CD-gyk" firstAttribute="centerX" secondItem="dbm-Uz-Kcv" secondAttribute="centerX" id="Gs5-V5-ZZg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3oC-CD-gyk" secondAttribute="bottom" constant="20" id="Nd8-2b-nlQ"/>
+                            <constraint firstItem="dbm-Uz-Kcv" firstAttribute="top" secondItem="Ncb-yW-awE" secondAttribute="bottom" constant="8" id="SFf-P9-cB1"/>
+                            <constraint firstItem="dbm-Uz-Kcv" firstAttribute="top" secondItem="HXy-nr-XYR" secondAttribute="bottom" constant="25" id="fMY-BE-XK7"/>
+                            <constraint firstItem="HXy-nr-XYR" firstAttribute="centerX" secondItem="Ncb-yW-awE" secondAttribute="centerX" id="kpK-DD-X1W"/>
+                            <constraint firstItem="HXy-nr-XYR" firstAttribute="centerX" secondItem="dbm-Uz-Kcv" secondAttribute="centerX" id="uS2-Vy-ANz"/>
+                            <constraint firstAttribute="centerX" secondItem="dbm-Uz-Kcv" secondAttribute="centerX" id="uTG-UD-pDp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="payButton" destination="dbm-Uz-Kcv" id="Znj-rI-6gc"/>
+                        <outlet property="resultTextView" destination="3oC-CD-gyk" id="riV-9U-5fB"/>
+                        <outlet property="versionLabel" destination="Ncb-yW-awE" id="4op-m4-QmB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
