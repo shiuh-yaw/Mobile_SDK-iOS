@@ -13,8 +13,8 @@
 		5DE100631B298E47008C94AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE100621B298E47008C94AE /* Images.xcassets */; };
 		5DE100661B298E47008C94AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DE100641B298E47008C94AE /* LaunchScreen.xib */; };
 		5DE100721B298E47008C94AE /* MOLPayExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE100711B298E47008C94AE /* MOLPayExampleTests.swift */; };
-		5DE1009A1B2ABC69008C94AE /* MOLPayLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE100971B2ABC69008C94AE /* MOLPayLibrary.framework */; };
-		5DE1009B1B2ABC69008C94AE /* MOLPay.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5DE100991B2ABC69008C94AE /* MOLPay.bundle */; };
+		5DE100A91B2E8A2D008C94AE /* MOLPayLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE100A61B2E8A2D008C94AE /* MOLPayLibrary.framework */; };
+		5DE100AA1B2E8A2D008C94AE /* MOLPay.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5DE100A81B2E8A2D008C94AE /* MOLPay.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,8 @@
 		5DE100701B298E47008C94AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DE100711B298E47008C94AE /* MOLPayExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOLPayExampleTests.swift; sourceTree = "<group>"; };
 		5DE100811B2990D1008C94AE /* BridgingObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingObjC.h; sourceTree = "<group>"; };
-		5DE100971B2ABC69008C94AE /* MOLPayLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOLPayLibrary.framework; sourceTree = "<group>"; };
-		5DE100991B2ABC69008C94AE /* MOLPay.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MOLPay.bundle; sourceTree = "<group>"; };
+		5DE100A61B2E8A2D008C94AE /* MOLPayLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOLPayLibrary.framework; sourceTree = "<group>"; };
+		5DE100A81B2E8A2D008C94AE /* MOLPay.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MOLPay.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DE1009A1B2ABC69008C94AE /* MOLPayLibrary.framework in Frameworks */,
+				5DE100A91B2E8A2D008C94AE /* MOLPayLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +65,7 @@
 		5DE1004D1B298E47008C94AE = {
 			isa = PBXGroup;
 			children = (
+				5DE100A51B2E8A2D008C94AE /* MOLPayLibrary.embeddedframework */,
 				5DE100581B298E47008C94AE /* MOLPayExample */,
 				5DE1006E1B298E47008C94AE /* MOLPayExampleTests */,
 				5DE100571B298E47008C94AE /* Products */,
@@ -83,7 +84,6 @@
 		5DE100581B298E47008C94AE /* MOLPayExample */ = {
 			isa = PBXGroup;
 			children = (
-				5DE100961B2ABC69008C94AE /* MOLPayLibrary.embeddedframework */,
 				5DE100811B2990D1008C94AE /* BridgingObjC.h */,
 				5DE1005B1B298E47008C94AE /* AppDelegate.swift */,
 				5DE1005D1B298E47008C94AE /* ViewController.swift */,
@@ -120,20 +120,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5DE100961B2ABC69008C94AE /* MOLPayLibrary.embeddedframework */ = {
+		5DE100A51B2E8A2D008C94AE /* MOLPayLibrary.embeddedframework */ = {
 			isa = PBXGroup;
 			children = (
-				5DE100971B2ABC69008C94AE /* MOLPayLibrary.framework */,
-				5DE100981B2ABC69008C94AE /* Resources */,
+				5DE100A61B2E8A2D008C94AE /* MOLPayLibrary.framework */,
+				5DE100A71B2E8A2D008C94AE /* Resources */,
 			);
-			name = MOLPayLibrary.embeddedframework;
-			path = ../../MOLPaySDK/MOLPayLibrary.embeddedframework;
+			path = MOLPayLibrary.embeddedframework;
 			sourceTree = "<group>";
 		};
-		5DE100981B2ABC69008C94AE /* Resources */ = {
+		5DE100A71B2E8A2D008C94AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5DE100991B2ABC69008C94AE /* MOLPay.bundle */,
+				5DE100A81B2E8A2D008C94AE /* MOLPay.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -222,7 +221,7 @@
 				5DE100611B298E47008C94AE /* Main.storyboard in Resources */,
 				5DE100661B298E47008C94AE /* LaunchScreen.xib in Resources */,
 				5DE100631B298E47008C94AE /* Images.xcassets in Resources */,
-				5DE1009B1B2ABC69008C94AE /* MOLPay.bundle in Resources */,
+				5DE100AA1B2E8A2D008C94AE /* MOLPay.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,8 +387,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MOLPayLibrary-cirdotnncsbbfqhdwbvkjzljnhsi/Build/Products/Debug-iphoneos/MOLPayLibrary.embeddedframework",
-					"/Users/MOLPayMB/Documents/Github/Mobile_SDK-iOS/MOLPaySDK/MOLPayLibrary.embeddedframework",
+					"$(PROJECT_DIR)/MOLPayLibrary.embeddedframework",
 				);
 				INFOPLIST_FILE = MOLPayExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -404,8 +402,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MOLPayLibrary-cirdotnncsbbfqhdwbvkjzljnhsi/Build/Products/Debug-iphoneos/MOLPayLibrary.embeddedframework",
-					"/Users/MOLPayMB/Documents/Github/Mobile_SDK-iOS/MOLPaySDK/MOLPayLibrary.embeddedframework",
+					"$(PROJECT_DIR)/MOLPayLibrary.embeddedframework",
 				);
 				INFOPLIST_FILE = MOLPayExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
