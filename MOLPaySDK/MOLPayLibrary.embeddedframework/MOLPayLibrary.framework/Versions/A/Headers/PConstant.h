@@ -9,7 +9,7 @@
 #ifndef MOLPayLibrary_PConstant_h
 #define MOLPayLibrary_PConstant_h
 
-#define MOLPAY_SDK_VERSION @"4.0.6.1"
+#define MOLPAY_SDK_VERSION @"4.0.6.2"
 #define mp_username         @"mp_username"
 #define mp_password         @"mp_password"
 

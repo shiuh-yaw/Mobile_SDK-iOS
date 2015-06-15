@@ -37,7 +37,7 @@ class ViewController: UIViewController,MOLPayDelegate{
             mp_app_name        :"",     //(Type: NSString)
             
             mp_order_ID:"order id",     //(Type: NSString)
-            mp_amount  :"1.1",          //(Type: Float)
+            mp_amount  :1.1,          //(Type: Float)
             
             mp_currency: "MYR",         //(Type: NSString)
             mp_channel:"multi",         //(Type: NSString)
